@@ -1,0 +1,68 @@
+{
+  "popovers": [
+    {
+      "id": "welcome-tooltip",
+      "type": "tooltip",
+      "position": "bottom",
+      "content": "Welcome to PopoverPro! Tap buttons to see different popover types.",
+      "backgroundColor": "#333333",
+      "animationDuration": 200
+    },
+    {
+      "id": "info-tooltip",
+      "type": "tooltip",
+      "position": "top",
+      "content": "This is an informational tooltip that displays helpful hints to users.",
+      "backgroundColor": "#2196F3",
+      "animationDuration": 250
+    },
+    {
+      "id": "main-dropdown",
+      "type": "dropdown",
+      "position": "bottom",
+      "content": "Select an option from the dropdown menu",
+      "backgroundColor": "#FFFFFF",
+      "animationDuration": 200
+    },
+    {
+      "id": "actions-context",
+      "type": "context",
+      "position": "right",
+      "content": "Quick actions menu",
+      "backgroundColor": "#FFFFFF",
+      "animationDuration": 150
+    },
+    {
+      "id": "confirm-modal",
+      "type": "modal",
+      "position": "center",
+      "content": "Are you sure you want to proceed? This action cannot be undone.",
+      "backgroundColor": "#FFFFFF",
+      "animationDuration": 300
+    },
+    {
+      "id": "info-modal",
+      "type": "modal",
+      "position": "center",
+      "content": "This is a modal popover that displays important information to users. It blocks interaction with the underlying UI until dismissed.",
+      "backgroundColor": "#FFFFFF",
+      "animationDuration": 250
+    },
+    {
+      "id": "settings-dropdown",
+      "type": "dropdown",
+      "position": "bottom",
+      "content": "Application settings",
+      "backgroundColor": "#F5F5F5",
+      "animationDuration": 200
+    },
+    {
+      "id": "help-tooltip",
+      "type": "tooltip",
+      "position": "left",
+      "content": "Need help? Tap here for more information.",
+      "backgroundColor": "#4CAF50",
+      "animationDuration": 200
+    }
+  ]
+}

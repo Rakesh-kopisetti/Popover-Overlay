@@ -1,0 +1,24 @@
+# docker-compose.yml
+services:
+  # Production web server
+  popover-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  # Development environment (optional - for building only)
+  flutter-dev:
+    image: ghcr.io/cirruslabs/flutter:stable
+    volumes:
+      - .:/app
+      - flutter-pub-cache:/root/.pub-cache
+    working_dir: /app
+    command: ["flutter", "pub", "get"]
+    profiles:
+      - dev
+
+volumes:
+  flutter-pub-cache:
